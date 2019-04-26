@@ -1,2 +1,5 @@
-# bunnymobile
-trang hiện đang dùng cho dungdua.com
+# Ngothuy.com
+
+Tài sản của Ngothuy.com
+
+Phát triển và sở hữu bởi Phạm Xuân Tiếp.

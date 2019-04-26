@@ -1,0 +1,1193 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+  <title>LF7 Einführung</title>
+  <meta name='description' content="Alles über IT.">
+  <link rel='canonical' href="http://fachinformatiker-fulda.de/LF7_Einfuehrung.html">
+  <link rel='alternate' type='application/rss+xml' title='Fachinformatiker-Forum Fulda' href="http://fachinformatiker-fulda.de/feed.xml">
+
+  <style>
+    
+
+    html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}/*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:0.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace, monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace, monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-0.25em}sup{top:-0.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,html [type="button"],[type="reset"],[type="submit"]{-webkit-appearance:button}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type="button"]:-moz-focusring,[type="reset"]:-moz-focusring,[type="submit"]:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type="checkbox"],[type="radio"]{box-sizing:border-box;padding:0}[type="number"]::-webkit-inner-spin-button,[type="number"]::-webkit-outer-spin-button{height:auto}[type="search"]{-webkit-appearance:textfield;outline-offset:-2px}[type="search"]::-webkit-search-cancel-button,[type="search"]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}body,h1,h2,h3,h4,h5,h6,blockquote,p,pre,dl,dd,ol,ul,figure,hr,fieldset,legend{margin:0;padding:0}li>ol,li>ul{margin-bottom:0}table{border-collapse:collapse;border-spacing:0}address,h1,h2,h3,h4,h5,h6,blockquote,p,pre,dl,ol,ul,figure,hr,table,fieldset{margin-bottom:16px}dd,ol,ul{margin-left:16px}@-webkit-keyframes spin{100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes spin{100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}.icon{position:relative;display:inline-block;width:25px;height:25px;overflow:hidden;fill:currentColor}.icon__cnt{width:100%;height:100%;background:inherit;fill:inherit;pointer-events:none;transform:translateX(0);-ms-transform:translate(0.5px, -0.3px)}.icon--m{width:50px;height:50px}.icon--l{width:100px;height:100px}.icon--xl{width:150px;height:150px}.icon--xxl{width:200px;height:200px}.icon__spinner{position:absolute;top:0;left:0;width:100%;height:100%}.icon--ei-spinner .icon__spinner,.icon--ei-spinner-2 .icon__spinner{-webkit-animation:spin 1s steps(12) infinite;animation:spin 1s steps(12) infinite}.icon--ei-spinner-3 .icon__spinner{-webkit-animation:spin 1.5s linear infinite;animation:spin 1.5s linear infinite}.icon--ei-sc-facebook{fill:#3b5998}.icon--ei-sc-github{fill:#333}.icon--ei-sc-google-plus{fill:#dd4b39}.icon--ei-sc-instagram{fill:#3f729b}.icon--ei-sc-linkedin{fill:#0976b4}.icon--ei-sc-odnoklassniki{fill:#ed812b}.icon--ei-sc-skype{fill:#00aff0}.icon--ei-sc-soundcloud{fill:#f80}.icon--ei-sc-tumblr{fill:#35465c}.icon--ei-sc-twitter{fill:#55acee}.icon--ei-sc-vimeo{fill:#1ab7ea}.icon--ei-sc-vk{fill:#45668e}.icon--ei-sc-youtube{fill:#e52d27}.icon--ei-sc-pinterest{fill:#bd081c}.icon--ei-sc-telegram{fill:#0088cc}.highlight{margin:0;background:#fff}.highlighter-rouge .highlight{background:#FAFAFA}.highlight .c{color:#998;font-style:italic}.highlight .err{color:#a61717;background-color:#e3d2d2}.highlight .k{font-weight:bold}.highlight .o{font-weight:bold}.highlight .cm{color:#998;font-style:italic}.highlight .cp{color:#999;font-weight:bold}.highlight .c1{color:#998;font-style:italic}.highlight .cs{color:#999;font-weight:bold;font-style:italic}.highlight .gd{color:#000;background-color:#fdd}.highlight .gd .x{color:#000;background-color:#faa}.highlight .ge{font-style:italic}.highlight .gr{color:#a00}.highlight .gh{color:#999}.highlight .gi{color:#000;background-color:#dfd}.highlight .gi .x{color:#000;background-color:#afa}.highlight .go{color:#888}.highlight .gp{color:#555}.highlight .gs{font-weight:bold}.highlight .gu{color:#aaa}.highlight .gt{color:#a00}.highlight .kc{font-weight:bold}.highlight .kd{font-weight:bold}.highlight .kp{font-weight:bold}.highlight .kr{font-weight:bold}.highlight .kt{color:#458;font-weight:bold}.highlight .m{color:#099}.highlight .s{color:#d14}.highlight .na{color:teal}.highlight .nb{color:#0086B3}.highlight .nc{color:#458;font-weight:bold}.highlight .no{color:teal}.highlight .ni{color:purple}.highlight .ne{color:#900;font-weight:bold}.highlight .nf{color:#900;font-weight:bold}.highlight .nn{color:#555}.highlight .nt{color:navy}.highlight .nv{color:teal}.highlight .ow{font-weight:bold}.highlight .w{color:#bbb}.highlight .mf{color:#099}.highlight .mh{color:#099}.highlight .mi{color:#099}.highlight .mo{color:#099}.highlight .sb{color:#d14}.highlight .sc{color:#d14}.highlight .sd{color:#d14}.highlight .s2{color:#d14}.highlight .se{color:#d14}.highlight .sh{color:#d14}.highlight .si{color:#d14}.highlight .sx{color:#d14}.highlight .sr{color:#009926}.highlight .s1{color:#d14}.highlight .ss{color:#990073}.highlight .bp{color:#999}.highlight .vc{color:teal}.highlight .vg{color:teal}.highlight .vi{color:teal}.highlight .il{color:#099}body{color:#323232;font-size:16px;font-family:"Libre Baskerville",serif;font-weight:300;line-height:32px;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}*::selection{color:#fff;background:#207CDF}@font-face{font-family:'Muli';font-style:normal;font-weight:400;src:local("Muli"),url(https://fonts.gstatic.com/s/muli/v9/zscZFkjVRGyfQ_Pw-5exXPesZW2xOQ-xsNqO47m55DA.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215,U+E0FF,U+EFFD,U+F000}@font-face{font-family:'Libre Baskerville';font-style:normal;font-weight:400;src:local("Libre Baskerville"),local("LibreBaskerville-Regular"),url(https://fonts.gstatic.com/s/librebaskerville/v4/pR0sBQVcY0JZc_ciXjFsK56jerHLVJWaC-9Ja-RK4Ug.woff2) format("woff2");unicode-range:U+0100-024F,U+1E00-1EFF,U+20A0-20AB,U+20AD-20CF,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Libre Baskerville';font-style:normal;font-weight:400;src:local("Libre Baskerville"),local("LibreBaskerville-Regular"),url(https://fonts.gstatic.com/s/librebaskerville/v4/pR0sBQVcY0JZc_ciXjFsK8j0T1k_tV7QYhgnOhA2764.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215,U+E0FF,U+EFFD,U+F000}a{color:#323232;text-decoration:none;transition:.4s}a:hover,a:active,a:focus{text-decoration:underline}img{display:block;max-width:100%;font-style:italic}hr{height:1px;margin:32px 0;border:0;background-color:#E1E0E1}h1,h2,h3,h4,h5,h6{font-weight:inherit;line-height:initial}h1{font-size:36px}h2{font-size:28px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}b,strong{font-weight:700}blockquote{padding-left:16px;border-left:3px solid #323232;font-style:italic}pre,code{font-family:Courier,monospace;background-color:#ECF0F1}pre{overflow:auto;padding:32px;font-size:16px;line-height:25px;white-space:pre-wrap;word-wrap:break-word;word-break:break-all}p code{padding:3px 6px}input[type='text'],input[type='tel'],input[type='number'],input[type='email'],select,textarea{width:100%;padding:16px;border:1px solid #E1E0E1;border-radius:0;outline:none;background-color:#fff;font-size:14px;font-family:Muli,sans-serif;appearance:none;transition:.4s}input[type='text']:hover,input[type='text']:active,input[type='text']:focus,input[type='tel']:hover,input[type='tel']:active,input[type='tel']:focus,input[type='number']:hover,input[type='number']:active,input[type='number']:focus,input[type='email']:hover,input[type='email']:active,input[type='email']:focus,select:hover,select:active,select:focus,textarea:hover,textarea:active,textarea:focus{border:1px solid #323232}.o-grid{display:flex;flex-wrap:wrap;margin:0 auto;max-width:1200px}.o-grid:after{content:'';display:table;clear:both}.o-grid .o-grid{margin-right:-16px;margin-left:-16px;padding:0}.o-grid--full{max-width:100vw}.o-grid__col{padding-right:16px;padding-left:16px}.o-grid__col--1-4-s{width:25%}.o-grid__col--1-3-s{width:33.3333333333%}.o-grid__col--2-4-s{width:50%}.o-grid__col--3-4-s{width:75%}.o-grid__col--4-4-s{width:100%}@media (min-width: 40em){.o-grid__col--1-4-m{width:25%}.o-grid__col--1-3-m{width:33.3333333333%}.o-grid__col--2-4-m{width:50%}.o-grid__col--3-4-m{width:75%}}@media (min-width: 64em){.o-grid__col--1-4-l{width:25%}.o-grid__col--1-3-l{width:33.3333333333%}.o-grid__col--2-4-l{width:50%}.o-grid__col--3-4-l{width:75%}}.o-grid__col--full{width:100%}.o-grid__col--center{margin:0 auto}.o-grid__col--end{margin-left:auto}.o-wrapper{padding:32px 0}.c-off-canvas-container{display:flex;min-height:100vh;flex-direction:column}.c-off-canvas-container .o-wrapper{flex:1 0 auto}.o-plain-list{margin:0;padding:0;list-style:none}.c-header__inner{padding:16px 0;border-bottom:1px solid #E1E0E1}.c-header__icon{vertical-align:middle}.c-logo__link{font-size:19px;transition:.4s}.c-logo__link:hover,.c-logo__link:active,.c-logo__link:focus{color:#207CDF;text-decoration:none}.c-logo__img{margin:0 auto;max-height:32px}.c-nav__item{font-size:16px;font-family:Muli,sans-serif}.c-nav__item:not(:last-child){margin-bottom:4px}.c-nav__link{display:block;transition:.4s}.c-nav__link--current{color:#207CDF}.home-template .c-nav__link--current:not(:hover){color:#323232}.c-nav__link:hover,.c-nav__link:active,.c-nav__link:focus{color:#207CDF;text-decoration:none}.c-search{position:fixed;top:0;right:0;bottom:0;left:0;z-index:100;padding-top:doublequadruple(16px);background:#fff;transition:all .4s ease-in-out;transform:translate(0, -100%) scale(0, 0)}@media (min-width: 40em){.c-search{padding-top:64px}}.c-search.is-active{transform:translate(0, 0) scale(1, 1)}.c-search__input{padding:0;width:100%;outline:none;margin-bottom:16px;font-weight:300;font-size:28px;line-height:44px;border:0;border-bottom:1px solid #E1E0E1}@media (min-width: 40em){.c-search__input{font-size:38px;line-height:50px}}.c-search__close{position:absolute;top:16px;right:16px;cursor:pointer;fill:#323232;transition:.4s}@media (min-width: 40em){.c-search__close{top:32px;right:32px}}.c-search__close:hover{fill:#7E7E7E;transform:rotate(90deg)}.c-search-result{display:none;height:80vh;overflow:auto;white-space:normal;padding-right:32px}.c-search-result__head{padding-bottom:16px;margin-bottom:16px;color:#7E7E7E;font-family:Muli,sans-serif;border-bottom:1px solid #E1E0E1}.c-search-result__item{padding-bottom:16px;margin-bottom:16px;border-bottom:1px solid #E1E0E1;font-family:Muli,sans-serif}.c-search-result__title{display:block;line-height:25px}.c-search-result__title:hover,.c-search-result__title:active,.c-search-result__title:focus{color:#207CDF;text-decoration:none}.c-off-canvas-toggle{position:relative;z-index:10;height:19px;width:25px;cursor:pointer;display:inline-block;vertical-align:middle}.c-off-canvas-toggle__icon{position:absolute;left:0;height:1px;width:25px;background:#222228;cursor:pointer}.c-off-canvas-toggle__icon:before,.c-off-canvas-toggle__icon:after{content:'';display:block;height:100%;background-color:inherit;transition:.4s}.c-off-canvas-toggle__icon:before{transform:translateY(16px)}.c-off-canvas-toggle__icon:after{transform:translateY(7px)}.c-off-canvas-toggle--close .c-off-canvas-toggle__icon{height:2px;background-color:transparent}.c-off-canvas-toggle--close .c-off-canvas-toggle__icon:before,.c-off-canvas-toggle--close .c-off-canvas-toggle__icon:after{position:relative;visibility:visible;background:#222228}.c-off-canvas-toggle--close .c-off-canvas-toggle__icon:before{top:11px;transform:rotate(-45deg)}.c-off-canvas-toggle--close .c-off-canvas-toggle__icon:after{top:9px;transform:rotate(45deg)}.c-off-canvas-toggle--close{margin-bottom:16px}html,body{overflow-x:hidden}.c-off-canvas-content{position:fixed;top:0;left:0;z-index:10;width:300px;height:100%;padding:24px 32px;transform:translate3d(-300px, 0, 0)}@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none){.c-off-canvas-content{background-color:#fff}.c-off-canvas-content.is-active{left:300px}}.c-off-canvas-container{-webkit-perspective:1000;transition:transform .4s cubic-bezier(0.16, 0.68, 0.43, 0.99)}.c-off-canvas-container.is-active{transform:translate3d(300px, 0, 0)}.c-off-canvas-container.is-active:after{position:fixed;top:0;right:0;bottom:0;left:0;content:'';background-color:rgba(0,0,0,0.5)}.c-blog-desc{padding-top:16px;margin-top:16px;border-top:1px solid #E1E0E1;color:#7E7E7E;font-size:14px;font-family:Muli,sans-serif;line-height:22px;word-wrap:break-word}.c-tag{text-align:center;padding-bottom:32px;margin-bottom:32px;border-bottom:1px solid #E1E0E1}.c-tag__name{margin-bottom:0;font-size:28px;line-height:50px}.c-tags a{display:inline-block;padding:4px 16px;margin:0 8px 4px 0;font-size:12px;font-family:Muli,sans-serif;line-height:22px;background-color:#FAFAFA;transition:.4s}.c-tags a:hover,.c-tags a:active,.c-tags a:focus{text-decoration:none;background-color:#ECF0F1}@media (max-width: 39.99em){.c-tags{margin-bottom:22px}}.c-btn{display:inline-block;padding:8px 32px;cursor:pointer;transition:.4s;text-align:center;vertical-align:middle;white-space:nowrap;line-height:inherit;border:0;border-radius:0;color:#fff;background-color:#207cdf;font-size:16px;font-family:Muli,sans-serif}.c-btn:hover,.c-btn:active,.c-btn:focus{text-decoration:none;background-color:#238cf6}.c-btn--full{width:100%}.c-btn--small{padding:4px 16px}.c-subscribe{display:flex;flex-wrap:wrap}.c-subscribe .form-group{flex:8}.c-subscribe__btn{position:relative;left:-1px;flex:2}.c-post-card{overflow:hidden;transform:translateX(0);margin-bottom:32px;background-color:#ECF0F1;border-bottom:1px solid #E1E0E1}.c-post-card__image-link{display:block;position:relative}.c-post-card__image-link:after{position:absolute;top:0;height:100%;width:100%;content:'';background-color:#222228;transition:.4s;opacity:0}@media (min-width: 40em){.c-post-card__image{opacity:0;transition:opacity .4s ease-in-out}.c-post-card__image.is-inview{opacity:1}}@media screen and (min-width: 40em) and (-webkit-min-device-pixel-ratio: 0){.c-post-card__image{opacity:1}}.c-post-card__info{display:block;padding:16px 0;text-decoration:none;background-color:#fff}.c-post-card__info--no-image{padding-top:0}.c-post-card__info:hover{text-decoration:none;color:#323232}.c-post-card__title{margin-bottom:10px;font-size:19px;font-weight:400;line-height:25px;font-family:"Libre Baskerville",serif;transition:.4s}.c-post-card__date{display:block;margin-bottom:8px;font-size:12px;font-family:Muli,sans-serif;line-height:22px;text-transform:uppercase;color:#7E7E7E}.c-post-card:hover .c-post-card__image-link:after{opacity:.1}.c-post-card:hover .c-post-card__title{color:#207CDF}.c-post-card__excerpt{margin-bottom:10px;font-family:Muli,sans-serif}.c-post-card__featured-icon{position:absolute;bottom:8px;left:8px;fill:#fff}.c-pagination{text-transform:uppercase;transition:.4s}.c-pagination:hover,.c-pagination:active,.c-pagination:focus{color:#207CDF;text-decoration:none}.c-pagination__text{position:relative;font-size:14px;font-family:Muli,sans-serif;letter-spacing:2px}.c-pagination__text--prev{left:-16px}.c-pagination__text--next{right:-16px}.c-pagination__icon{vertical-align:text-top}.c-pagination__icon--prev{left:-8px}.c-pagination__icon--next{right:-8px}.c-post{margin:0 auto;max-width:700px}.c-post__title{font-size:24px}@media (min-width: 40em){.c-post__title{font-size:28px;line-height:50px}}.c-post__date{display:block;text-align:center;margin-bottom:16px;font-size:12px;font-family:Muli,sans-serif;line-height:22px;color:#7E7E7E}.c-post__image{margin:0 auto 16px}.c-share{display:flex;border-radius:3px;border:1px solid #E1E0E1;line-height:22px}.c-share__item{flex:1;text-align:center;border-right:1px solid #E1E0E1}.c-share__item:last-child{border-right:0}.c-share__link{display:block;padding:4px;transition:.4s}.c-share__link:hover{background-color:#FAFAFA}.c-share__link:hover .c-share__icon--twitter{fill:#55ACEE}.c-share__link:hover .c-share__icon--facebook{fill:#3B5998}.c-share__icon{fill:#7E7E7E;vertical-align:middle}.c-content a:not(.c-btn){text-shadow:0.04545em 0 0 #fff,0.09091em 0 0 #fff,0.13636em 0 0 #fff,-0.04545em 0 0 #fff,-0.09091em 0 0 #fff,-0.13636em 0 0 #fff,0 0.04545em 0 #fff,0 0.09091em 0 #fff,0 -0.04545em 0 #fff,0 -0.09091em 0 #fff;text-decoration:none;background-size:1px 1px;background-position:0 98%;background-repeat:repeat-x;background-image:linear-gradient(to bottom, #323232, #323232)}.c-author{padding-bottom:32px;margin-bottom:32px;border-bottom:1px solid #E1E0E1}@media (min-width: 64em){.c-author{display:flex;align-items:center}}.c-author__img{float:left;border-radius:100%;margin-right:16px;height:64px;width:64px}@media (min-width: 64em){.c-author__img{margin-right:32px;height:128px;width:128px}}@media (min-width: 40em){.c-author__body{overflow:hidden}}.c-author__name{margin-bottom:8px;font-family:Muli,sans-serif}.c-author__bio{margin-bottom:8px;font-size:16px;font-family:Muli,sans-serif;line-height:25px}.c-author-links{font-family:Muli,sans-serif}.c-author-links__item{display:inline-block;font-size:16px;line-height:25px}.c-author-links__icon{vertical-align:middle;fill:#323232;transition:.4s}.c-author-links__icon:hover,.c-author-links__icon:active,.c-author-links__icon:focus{fill:#207CDF}.twitter-tweet,.fluid-width-video-wrapper{margin-bottom:16px !important}.c-social-nav__item{display:inline-block}.c-social-nav__icon{fill:#323232;vertical-align:middle;transition:.4s}.c-social-nav__icon:hover,.c-social-nav__icon:active,.c-social-nav__icon:focus{fill:#207CDF}.c-footer{padding:32px 0;background-color:#FAFAFA}.u-hidden{display:none}.u-hidden-visually{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.u-font-serif{font-family:"Libre Baskerville",serif}.u-font-sans-serif{font-family:Muli,sans-serif}.u-font-medium{font-size:16px;line-height:25px}.u-font-small{font-size:14px;line-height:22px}.u-font-tiny{font-size:12px;line-height:19px}.u-text-left{text-align:left}.u-text-right{text-align:right}.u-text-center{text-align:center}.u-text-justify{text-align:justify}.u-inline{display:inline}.u-block{display:block}.u-inline-block{display:inline-block}.u-left{float:left}.u-right{float:right}.u-clearfix:after{content:'';display:table;clear:both}
+
+  </style>
+
+  <script>
+    var base_url = "";
+  </script>
+</head>
+
+<body>
+
+  <!-- Google Analytics Code -->
+
+  <div class='js-off-canvas-container c-off-canvas-container'>
+    <header class='c-header'>
+
+  <div class='o-grid'>
+    <div class='o-grid__col o-grid__col--full'>
+      <div class='c-header__inner'>
+
+        <div class='o-grid'>
+          <div class='o-grid__col o-grid__col--1-4-s'>
+            <label class='js-off-canvas-toggle c-off-canvas-toggle' aria-label='Toggle navigation'>
+              <span class='c-off-canvas-toggle__icon'></span>
+            </label>
+          </div>
+
+          <div class='o-grid__col o-grid__col--2-4-s'>
+            <div class='c-logo u-text-center'>
+              
+                <a href='/'>
+                  <img class='c-logo__img' src='https://github.com/joergre/fachinformatiker-forum/blob/gh-pages/logo.jpg?raw=true# Logo image URL' alt='Fachinformatiker-Forum Fulda'>
+                </a>
+              
+            </div>
+          </div>
+
+          <div class='o-grid__col o-grid__col--1-4-s'>
+            <div class='u-text-right'>
+              <a class='toggle-search-button js-search-toggle' href='#'>
+                <span class='c-header__icon' data-icon='ei-search' data-size='s'></span>
+              </a>
+            </div>
+            <div class='c-off-canvas-content js-off-canvas-content'>
+              <label class='js-off-canvas-toggle c-off-canvas-toggle c-off-canvas-toggle--close'>
+                <span class='c-off-canvas-toggle__icon'></span>
+              </label>
+
+              <ul class='c-nav o-plain-list '>
+                
+  
+    
+  
+
+  
+
+  
+    
+      <li class='c-nav__item' role='presentation'>
+        <a class='c-nav__link' href='/LF10.html'>LF10 Projekt</a>
+      </li>
+    
+  
+
+  
+    
+      <li class='c-nav__item' role='presentation'>
+        <a class='c-nav__link' href='/LF6_1.1_Python.html'>LF6 1.1 Python</a>
+      </li>
+    
+  
+
+  
+    
+      <li class='c-nav__item' role='presentation'>
+        <a class='c-nav__link' href='/LF6_2.1_Python.html'>LF6 2.1 Python</a>
+      </li>
+    
+  
+
+  
+    
+      <li class='c-nav__item' role='presentation'>
+        <a class='c-nav__link' href='/LF6_SQL.html'>LF6 SQL</a>
+      </li>
+    
+  
+
+  
+    
+      <li class='c-nav__item' role='presentation'>
+        <a class='c-nav__link' href='/LF7_Einfuehrung.html'>LF7 Einführung</a>
+      </li>
+    
+  
+
+  
+    
+      <li class='c-nav__item' role='presentation'>
+        <a class='c-nav__link' href='/LF7_Powershell.html'>Powershell</a>
+      </li>
+    
+  
+
+  
+    
+      <li class='c-nav__item' role='presentation'>
+        <a class='c-nav__link' href='/about/'>About</a>
+      </li>
+    
+  
+
+  
+    
+      <li class='c-nav__item' role='presentation'>
+        <a class='c-nav__link' href='/docker.html'>LF7 Docker</a>
+      </li>
+    
+  
+
+  
+    
+  
+
+  
+    
+      <li class='c-nav__item' role='presentation'>
+        <a class='c-nav__link' href='/impressum.html'>Impressum</a>
+      </li>
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+              </ul>
+
+              
+                <p class='c-blog-desc'>Alles über IT.</p>
+              
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</header>
+
+<div class='c-search js-search'>
+
+  <div class='o-grid'>
+    <div class='o-grid__col o-grid__col--4-4-s o-grid__col--3-4-m o-grid__col--2-4-l o-grid__col--center'>
+      <form>
+        <input type='search' class='c-search__input js-search-input' placeholder='Start typing to search'>
+      </form>
+    </div>
+  </div>
+
+  <div class='o-grid'>
+    <div class='o-grid__col o-grid__col--4-4-s o-grid__col--3-4-m o-grid__col--2-4-l o-grid__col--center'>
+      <div class='c-search-result js-search-result'></div>
+    </div>
+  </div>
+
+  <div data-icon='ei-close' data-size='s' class='c-search__close js-search-close'></div>
+</div>
+
+    <div class='o-wrapper'>
+
+  <div class='o-grid'>
+    <div class='o-grid__col o-grid__col--3-4-m o-grid__col--center'>
+      <article class='c-post'>
+        <h1 class='c-post__title u-text-center'>LF7 Einführung</h1>
+
+        <div class='c-content'>
+          
+  <img src='/images/posts/Tux.png' class='c-post__image' alt='LF7 Einführung'>
+
+          <p>Von <a rel="nofollow" class="external text" href="http://www.isc.tamu.edu/~lewing/">Larry Ewing</a>, <a rel="nofollow" class="external text" href="http://www.home.unix-ag.org/simon/">Simon Budig</a>, <a rel="nofollow" class="external text" href="https://github.com/garrett/Tux">Garrett LeSage</a> - <a rel="nofollow" class="external free" href="http://www.home.unix-ag.org/simon/penguin/">http://www.home.unix-ag.org/simon/penguin/</a>, <a rel="nofollow" class="external text" href="https://github.com/garrett/Tux">garrett/Tux</a> on GitHub, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en" title="Creative Commons Zero, Public Domain Dedication">CC0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=753970">Link</a></p>
+
+<p>Bei Fragen, bitte die Diskussionsmöglichkeit unten verwenden.</p>
+
+<h1 id="installation-von-programmen">Installation von Programmen</h1>
+
+<p>Bei Windows wird eine Datei im Format .exe oder .msi bespielsweise aus dem Internet geladen und ausgeführt. Bei Linux gibt es für die meisten Programme ein Repository und zwar für jede Disribution ein eigenes. Das Repository sorgt auch für die Update-Versorgung sowohl der Gerätetreiber wie der Anwendungssoftware.</p>
+
+<p>Es gibt Repositories die aus Quellcode bestehen (Gentoo, Slack) oder aus bereits fertig kompilierten Paketen (CentOS, Fedora, SuSe, OpenSuSe und RedHat Enterprise Linux mit .rpm und Debian, Elementary OS. Linux Mint und Ubuntu mit .deb).</p>
+
+<h2 id="yum-package-managment">YUM Package Managment</h2>
+
+<p>Wir möchten auf einem CentOS einen WebServer installieren. Dazu suchen wir im Repository nach dem Paket:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>yum search http
+</code></pre></div></div>
+
+<p>Wir finden in der Ausgabe das Paket httpd und schauen und die Informationen zu dem Paket an um festzustellen, ob dies ein Webserver beinhaltet:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>yum info httpd
+</code></pre></div></div>
+
+<p>Wir installieren das Paket:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>yum <span class="nb">install </span>httpd
+</code></pre></div></div>
+<p>Die erfolgreiche Installation können wir überprüfen:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>yum list installed httpd
+</code></pre></div></div>
+
+<p>Wir starten den Web-Server:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>service httpd start
+</code></pre></div></div>
+
+<p>und überprüfen die Funktionalität in dem wir auf die Webseite wechseln: <a href="http://[IP-Adresse]">http://[IP-Adresse]</a>.</p>
+
+<p>Auch die Abhängigkeiten des Pakets wie Libaries können wir uns anzeigen lassen:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>yum deplist httpd
+</code></pre></div></div>
+
+<p>Wir möchten den Webserver wieder deinstallieren:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>yum remove httpd
+</code></pre></div></div>
+
+<p>Der Befehl löscht nur den Webserver aber nicht die Abhängigkeiten. Um diese zu löschen, verwenden wir diesen Befehl:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>yum autoremove httpd
+</code></pre></div></div>
+
+<p>Yum stellt dabei sicher, dass keine Abhängigkeiten gelöscht werden die von anderen Paketen noch gebraucht werden.</p>
+
+<p>Wir können uns eine Liste der Repositories ausgen lassen, die von unserem System verwendet werden:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>yum repolist
+</code></pre></div></div>
+
+<p>Die Informationen werden als Textdateien abgelegt. Wir wechseln in das Verzeichnis:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd</span> /etc/yum.repos.d
+</code></pre></div></div>
+
+<p>Mit</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">ls</span>
+</code></pre></div></div>
+<p>können wir uns die Dateien dort anschauen. Pro Repository gibt es eine Datei.</p>
+
+<p>Wir schauen uns eine Datei an:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>less CentOS-Base.repo
+</code></pre></div></div>
+
+<p>Wir möchten jetzt die aktuellen Updates einspielen. Dazu löschen wir zuerst die alten Repo-Dateien:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>yum clean all
+</code></pre></div></div>
+
+<p>Jetzt holen wir die aktuellen Listen:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>yum update
+</code></pre></div></div>
+
+<p>Wir installieren jetzt PowerShell: <a href="https://github.com/PowerShell/PowerShell/blob/master/docs/installation/linux.md#centos-7">https://github.com/PowerShell/PowerShell/blob/master/docs/installation/linux.md#centos-7</a></p>
+
+<h1 id="rpm-pakete">RPM Pakete</h1>
+
+<p>Yum arbeitet mit Repositories, der Befehl rpm wird hingegen verwendet um einzelne Programme zu installieren, deren Paket lokal vorliegt (z.B. über download).</p>
+
+<p>Zum installieren eines Pakets wird der Parameter -i verwendet (rpm -i <rpmDateiName.rpm>). Weitere typische Parameter sind -v für die Ausgabe des Programs und -h für einen Statusbalken. Es macht jetzt wenig Sinn, den Apache über rpm zu installieren da dieser ja über die Repositories zu installieren ist. Eine typische Verwendung ist die Installation von Sun Java, dass wir hier herunterladen: &lt;https://www.java.com/de/download/linux_manual.jsp&gt; Leider erlauben die Lizenzbestimmungen nicht das direkte herunterladen, weshalb die Datei erst manuell auf den Desktop geladen werden muss und dann mit Filezilla oder SCP auf den Server kopiert wird. Kürzer geht es mit folgendem Befehl:</rpmDateiName.rpm></p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget <span class="nt">--no-cookies</span> <span class="nt">--no-check-certificate</span> <span class="nt">--header</span> <span class="s2">"Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie"</span> <span class="s2">"http://download.oracle.com/otn-pub/java/jdk/8u131-b11/d54c1d3a095b4ff2b6607d096fa80163/jdk-8u131-linux-x64.rpm"</span>
+</code></pre></div></div>
+
+<p>Und installieren wir es mit dem Befehl:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>rpm <span class="nt">-ivh</span> jdk-8u131-linux-x64.rpm
+</code></pre></div></div>
+
+<p>Mit dem Befehl</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>java <span class="nt">-version</span>
+</code></pre></div></div>
+
+<p>können wir die Installation überprüfen und mit folgendem Befehl den Ort der Installation:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>which java
+</code></pre></div></div>
+
+<p>Mit dem Befehl sehen wir die Abhängigkeiten des Programms</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rpm <span class="nt">-qpR</span> jdk-8u131-linux-x64.rpm
+</code></pre></div></div>
+
+<p>Es ist ein Update erschienen, dass unbedingt eingespielt werden muss:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget <span class="nt">--no-cookies</span> <span class="nt">--no-check-certificate</span> <span class="nt">--header</span> <span class="s2">"Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie"</span> <span class="s2">"http://download.oracle.com/otn-pub/java/jdk/8u161-b12/2f38c3b165be4555a1fa6e98c45e0808/jdk-8u161-linux-x64.rpm"</span>
+</code></pre></div></div>
+
+<p>Und mit dem folgenden Befehl spielen wir das Update ein:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> rpm <span class="nt">-Uvh</span> jdk-8u161-linux-x64.rpm
+</code></pre></div></div>
+
+<p>Wir überprüfen nun die installierte Version:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">[</span>user@joergreuter4 ~]<span class="nv">$ </span><span class="nb">sudo </span>rpm <span class="nt">-qi</span> jdk1.8
+Name        : jdk1.8
+Epoch       : 2000
+Version     : 1.8.0_161
+Release     : fcs
+Architecture: x86_64
+Install Date: Fri 09 Feb 2018 01:22:12 AM UTC
+Group       : Development/Tools
+Size        : 289899092
+License     : http://java.com/license
+Signature   : <span class="o">(</span>none<span class="o">)</span>
+Source RPM  : jdk1.8-1.8.0_161-fcs.src.rpm
+Build Date  : Wed 20 Dec 2017 12:29:52 AM UTC
+Build Host  : sc11137389.us.oracle.com
+Relocations : /usr/java
+Packager    : Java Software &lt;jre-comments@java.sun.com&gt;
+Vendor      : Oracle Corporation
+URL         : URL_REF
+Summary     : Java Platform Standard Edition Development Kit
+Description :
+The Java Platform Standard Edition Development Kit <span class="o">(</span>JDK<span class="o">)</span> includes both
+the runtime environment <span class="o">(</span>Java virtual machine, the Java platform classes
+and supporting files<span class="o">)</span> and development tools <span class="o">(</span>compilers, debuggers,
+tool libraries and other tools<span class="o">)</span><span class="nb">.</span>
+
+The JDK is a development environment <span class="k">for </span>building applications, applets
+and components that can be deployed with the Java Platform Standard
+Edition Runtime Environment.
+</code></pre></div></div>
+
+<p>Und bekommen das erfolgreiche Update durch die Versionsnummer 161 bestätigt.</p>
+
+<p>Mit dem Parameter -e deinstallieren wir das Paket</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rpm <span class="nt">-e</span> jdk1.8
+</code></pre></div></div>
+
+<p>Und überprüfen die Deinstallation mit dem Befehl:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">[</span>user@joergreuter4 ~]<span class="nv">$ </span><span class="nb">sudo </span>rpm <span class="nt">-qi</span> jdk1.8
+package jdk1.8 is not installed
+</code></pre></div></div>
+
+<p>Es gibt auch die Möglichkeit, mit dem Parameter –test eine Ausführung zu simulieren (der Befehl wird also nicht richtig ausgeführt aber Fehlermeldungen angezeigt:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rpm <span class="nt">-e</span> <span class="nt">--test</span> jdk1.8
+</code></pre></div></div>
+
+<h2 id="apt">APT</h2>
+
+<p>Die Repositories stehen hier in der Datei /etc/apt/sources.list und dem Verzeichnis /etc/apt/sources.list.d. Früher war die gesamte Liste in der Datei sources.list und momentan findet eine Aufteilung statt auf verschiedene Dateien im Verzeichnis /etc/apt/sources.list.d</p>
+
+<h2 id="aufgabe">Aufgabe</h2>
+
+<p>Schaue die bitte die Datei sources.list und das Verzeichnis /etc/apt/sources.list.d an.</p>
+
+<h2 id="apt-update">apt update</h2>
+
+<p>Die Repositories (die Metadaten der einzelnen Programme wie Versionsnummern etc.) müssen mit dem System abgeglichen werden:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>apt update
+</code></pre></div></div>
+
+<h2 id="apt-search">apt search</h2>
+
+<p>Wir möchten den Apache Webserver installieren und schauen dafür nach den passenden Paketnamen:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>apt search apache
+</code></pre></div></div>
+
+<p>oder</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>apt-cache search apache
+</code></pre></div></div>
+
+<p>Zu beachten ist hierbei, dass nicht online gesucht wird sondern nur im sogenannten Cache. Als Cache bezeichnen wir in diesem zusammenhang die Kopie der Metadaten des Online-Repositories auf unserem lokalen System. Bei vielen Cloud-Anbietern führt dies dazu, dass ohne ein ‘apt update’ keine Pakete gefunden werden können.</p>
+
+<h2 id="apt-install">apt install</h2>
+
+<p>Wir installieren jetzt den Webserver:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>apt <span class="nb">install </span>apache2
+</code></pre></div></div>
+
+<p>Wir starten den Web-Server:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>service apache2 start
+</code></pre></div></div>
+
+<p>und überprüfen die Funktionalität in dem wir auf die Webseite wechseln: <a href="http://[IP-Adresse]">http://[IP-Adresse]</a>.</p>
+
+<h2 id="apt-remove">apt remove</h2>
+
+<p>Wir löschen den Webserver wieder:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>apt remove apache2
+</code></pre></div></div>
+
+<p>Wir sehen allerdings, dass unter /etc/apache2 noch die Konfigurationsdateien vorhanden sind. Diese löschen wir mit einem anderen Befehl, der sowohl das Apache2 als auch alle Konfigurations-Dateien löscht! Dieser Unterschied ist vor z.B. im Zusammenhang mit Datenbanken nicht unerheblich: Bei remove sollten die Inhalte der Datenbank noch vorhanden sein und nach der Neuinstalaltion wieder eingebunden werden können (bitte trotzdem vorher ein Backup machen!!). Bei purge ist die Datenbank dann gelöscht.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>apt purge apache2
+</code></pre></div></div>
+
+<p>oder</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>apt remove <span class="nt">--purge</span> apache2
+</code></pre></div></div>
+
+<p>Purge bedeutet übrigens Säuberung, insbesondere auch politische.</p>
+
+<p>Wir sehen den Hinweis, dass im Falle des Webservers die HTML-Seiten nicht glöscht worden sind. Das ist sehr nett von der Routine, auf dieses Verhalten sollte man sich allerdings keinesfalls verlassen, es gehört eher zu den Ausnahmen. Desweiteren sehen wir, das Abhängigkeiten istallirt wurden, die nicht mehr benötigt werden. Also deinstallieren wir diese:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>apt autoremove
+</code></pre></div></div>
+
+<h2 id="apt-upgrade">apt upgrade</h2>
+
+<p>Um ein System einem Update zu unterziehen werden die Metadaten des Repositories mit denen der installierten Pakete verglichen. Bei einer Divergenz wird das aktuellere Paket installiert. Ist das installierte Paket aktueller (wurde also manuell eingespielt), gibt es eine Fehlermeldung:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>apt upgrade
+</code></pre></div></div>
+
+<p>Upgrade installiert keine neuen Pakete (z.B. durch Abhängigkeiten) und führt keine operationen durch, die die stabilität des Systems gefährten könnte. Um alle Pakete zu installieren gibt es zwei Möglichkeiten:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>apt dist-upgrade
+</code></pre></div></div>
+
+<p>oder</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>apt full-upgrade
+</code></pre></div></div>
+
+<p>Um auf eine neue Version zu kommen (z.B. von Ubuntu 17.04 auf Ubuntu 17.10) wird ein Skript verwendet:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">do</span><span class="nt">-release-upgrade</span>
+</code></pre></div></div>
+
+<p>Das Skript hält den Upgrade-Pfad ein, also von LTS-Version zur nächsten LTS-Version oder aber von der regulären Version zur nächsten. Das Skript wird nciht zeitnah zur Veröffentlichung aktiviert, sondern hat einen Schutz dass es erst mit Verögerung das Upgrade anbietet. Dies wird gemacht um die Stabilität des Systems sicher zu stellen. bei LTS-Versionen wird es z.B. erst bei ersten Update (z.B. Ubuntu 16.04.1) freigeschaltet.</p>
+
+<h1 id="dpkg">dpkg</h1>
+
+<p>Um alle installierten Pakete anzeigen zu lassen:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dpkg <span class="nt">--get-selections</span>
+</code></pre></div></div>
+
+<p>Die Hauptbedeutung kommt dpkg allerding zu, um einzelne Pakete zu installieren. Wir möchten bespielsweise einen Webserver in einer Version installieren, der noch nicht im Repository aufgenommen wurde.</p>
+
+<p>Achtung: Das manuelle installieren von Paketen ist mit einem erheblichen Risiko für das System verbunden und kann im schlimmsten Falle zu inkonsistwenten Systemen mit nicht erfüllten Abhängigkeiten führen. Die manuelle Instalaltion von .deb-Paketen ist eine Notlösung, insbesondere wenn Abhängigkeiten im Verlauf der Instalaltion manuell nachgezogen werden müssen!</p>
+
+<p>Wir laden das Paket von der Seite <a href="https://pkgs.org/download/apache2">https://pkgs.org/download/apache2</a>:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget http://archive.ubuntu.com/ubuntu/pool/main/a/apache2/apache2_2.4.18-2ubuntu3_amd64.deb
+</code></pre></div></div>
+
+<p>Wir schauen uns die Informationen zu dem Paket an:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dpkg-deb <span class="nt">-I</span> apache2_2.4.18-2ubuntu3_amd64.deb
+</code></pre></div></div>
+
+<p>Wir schauen nach, ob das Paket bereits installiert ist:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>user@joergreuter3:~<span class="nv">$ </span>dpkg <span class="nt">--get-selections</span> apache2_2.4.18-2ubuntu3_amd64
+dpkg: no packages found matching apache2_2.4.18-2ubuntu3_amd64
+</code></pre></div></div>
+
+<p>Und stellen fest, dass wir das Paket noch nicht installiert haben.</p>
+
+<p>Den Inhalt des Pakets können wir uns ebenfalls anzeigen lassen:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dpkg-deb <span class="nt">--contents</span> apache2_2.4.18-2ubuntu3_amd64.deb
+</code></pre></div></div>
+
+<p>Wir versuchen das Paket zu installieren:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dpkg <span class="nt">-i</span> apache2_2.4.18-2ubuntu3_amd64.deb
+</code></pre></div></div>
+
+<p>Die installation scheitert, weil die Abhängigkeiten nicht erfüllt sind! 
+Wir installieren die Abhängigkeiten:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>apt <span class="nt">-f</span> upgrade
+</code></pre></div></div>
+
+<p>Jetzt starten wir Apache wie gewohnt und besuchen die Website:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>service apache2 start
+</code></pre></div></div>
+
+<p>Um das Paket wieder zu deinstallieren:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dpkg <span class="nt">-r</span> apache2
+</code></pre></div></div>
+
+<p>Wir sehen, dass das Paket noch als isntalliert erscheint:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dpkg <span class="nt">-l</span> apache2
+</code></pre></div></div>
+
+<p>und die Start-Skripte sind ebenfalls noch vorhanden.</p>
+
+<p>Daher löschen wir das Paket mit allen Konfigurationen (purge):</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dpkg <span class="nt">-P</span> apache2
+</code></pre></div></div>
+
+<p>Jetzt wird das Paket als gelöscht angezeigt:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dpkg <span class="nt">-l</span> apache2
+</code></pre></div></div>
+
+<h1 id="which">Which</h1>
+
+<p>Manchmal ist die Antwort auf die Frage interessant: “Wo ist dieses Programm instaliert?” Beispielsweise des Befehls “ls”. Die Antwort erhalten wir mit folgendem Befehl:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>which <span class="nb">ls</span>
+</code></pre></div></div>
+
+<p>Woher weiß jetzt das System in welchem Ordner das Programm installiert ist? Über das sogenannte “environment” also der Umgebung. Mit Umgebung bezeichnet man die Menge aller Syxstemvariablen und bekommt sie angezeigt mit:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">env</span>
+</code></pre></div></div>
+
+<p>Relativ weit unten kommt eine Zeile, die mit PATH anfängt, sie gibt alle Verzeichnisse an, in dem das Betriebssystem nach einem Befehl sucht.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">PATH</span><span class="o">=</span>/home/user/bin:/home/user/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+</code></pre></div></div>
+
+<p>Wir können uns auch nur die Variable ausgeben lassen:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">echo</span> <span class="nv">$PATH</span>
+</code></pre></div></div>
+
+<h1 id="das-erste-script">Das erste Script</h1>
+
+<p>Wir schreiben ein Script, dass den Befehl “ls -a” ausführen soll. Wir nennen die Datei ls.sh. Dazu öffnen wir die datei mit unserem Lieblingseditor und schreiben hinein:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">ls</span> <span class="nt">-a</span>
+</code></pre></div></div>
+
+<p>Wir können das Skript nicht ausführen, weil die entsprechende Berechtigung fehlt:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>user@joergreuter3:~<span class="nv">$ </span>./ls.sh
+<span class="nt">-bash</span>: ./ls.sh: Permission denied
+</code></pre></div></div>
+
+<p>Als nächstes müssen wir die Rechte setzen. Die momentanen Rechte sehe wir mit:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>user@joergreuter3:~<span class="nv">$ </span><span class="nb">ls</span> <span class="nt">-l</span>
+total 4
+<span class="nt">-rw-rw-r--</span> 1 user user 6 Feb 25 14:12 ls.sh
+</code></pre></div></div>
+
+<p>Wir sehen an erster Stelle ein “-“, dies bedeutet dass es sich um eine Datei handelt. Es gibt nich viele andere mögliche Zeichen, z.B. ein d für ein Verzeichnis (directory).</p>
+
+<p>Dann kommen die Buchstaben ‘rw-‘, ‘rw-‘ und ‘r–’. ‘r’ steht für das Leserecht (read), ‘w’ für das Schreibrecht (write) und ‘x’ steht für das Ausführungsrecht (execute). Da das x-Recht nicht gesetzt ist, steht dort ein ‘-‘. Die erste Gruppe von drei Zeichen beschreibt die Rechte des Eigentümers (user), die zweite Gruppe die der Benutzergruppe (group) und die letzte Gruppe die Rechte der Benutzer die weder Eigentümer der Datei noch in der entsprechenden Gruppe sind (others). Wir sehen, dass die “anderen” nur ein Leserecht haben.</p>
+
+<p>Wir sehen dann eine 1, dass die Anzahl der Dateien. Bei einer einzelnen Datei steht hier immer eine 1. Danach kommt der Besitzer (user) und die Gruppe (user) und das Erstellungsdatum (6. Februar)und die Uhrzeit (14:12). Die Uhrzeit wird ausgeblendet, wenn die Datei älter als ein Jahr ist und durch die Jahreszahl ersetzt. Die Zahl zwischen Datum und Uhrzeit gibt die Größe der Datei in Bytes an.</p>
+
+<p>Um die Datei auszuführbar zu machen, verwenden wir folgenden Befehl:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">chmod </span>u+x ls.sh
+</code></pre></div></div>
+
+<p>und schauen uns das Ergebnis an:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>user@joergreuter3:~<span class="nv">$ </span><span class="nb">ls</span> <span class="nt">-l</span>
+<span class="nt">-rwxrw-r--</span> 1 user user 6 Feb 25 14:12 ls.sh
+</code></pre></div></div>
+
+<p>Wir sehen, dass ein x dazu gekommen ist. Das u steht für users, dass ‘+’ für hinzufügen und das ‘x’ für das Ausführrecht. 
+Wir führen die Datei jetzt aus:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>user@joergreuter3:~<span class="nv">$ </span>./ls.sh
+<span class="nb">.</span>   .bash_history  .bashrc  .local  .profile                   .viminfo
+..  .bash_logout   .cache   ls.sh   .sudo_as_admin_successful
+</code></pre></div></div>
+
+<p>Wir müssen momentan ein ‘./’ davor schreiben, weil das System nicht weiß in welchem Verzeichnis die Datei liegt. Würden wir das ‘./’ weglassen würde das System die Pfade der Variable $PATH absuchen und unsere Datei nicht finden:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>user@joergreuter3:~<span class="nv">$ </span>ls.sh
+ls.sh: <span class="nb">command </span>not found
+</code></pre></div></div>
+
+<p>’./’ steht für das Verzeichnis indem wir uns gerade befinden. Dieses Verzeichnis wird beim Prompt angezeigt: ‘~’. Das ‘~’ steht als Abkürzung für das Heimatverzeichnes des gerade angemeldeten Benutzer.</p>
+
+<p>’./ls.sh’ ist der relative Pfad und wir können auch den absoluten Pfad verwenden:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/home/user/ls.sh
+</code></pre></div></div>
+
+<p>Wir können jetzt unseren Befehl in ein Directory kopieren, das in der PATH-Variable angegeben ist:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo cp </span>ls.sh /bin
+</code></pre></div></div>
+
+<p>Beim ausführen bekommen wir eine Fehlermeldung:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>user@joergreuter3:~<span class="nv">$ </span>ls.sh
+<span class="nt">-bash</span>: /bin/ls.sh: Permission denied
+</code></pre></div></div>
+
+<p>Das liegt daran, dass beim kopieren in bin der Besitzer zu root gewechselt ist. Uns gehört die Datei nichtmehr. Also passwn wir die Rechte an:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo chmod </span>a+x /bin/ls.sh
+</code></pre></div></div>
+
+<p>‘a’ steht für all und setzt für alle die Ausführungsrechte. Jetzt können wir den Befehl verwenden.</p>
+
+<p>Wir können auch die Variable $PATH unseren Bedürfnissen anpassen. Wir möchten unser Programm ls.sh im Verzeichnis /opt haben und es soll dort auch gefunden werden:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">mv</span> /bin/ls.sh /opt/
+<span class="nv">PATH</span><span class="o">=</span><span class="nv">$PATH</span>:/opt
+</code></pre></div></div>
+
+<h1 id="history">History</h1>
+
+<p>Mit dem Befehl ‘history’ sehen wir alle Befehle die unser User auf diesem System ausgeführt hat. Die Befehle werden in der Datei .bash_history gespeichert.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>user@joergreuter3:~<span class="nv">$ </span><span class="nb">history
+    </span>1  su -
+    2  <span class="nb">sudo </span>apt update
+    3  <span class="nb">sudo </span>apt-get <span class="nb">install</span> <span class="nt">-y</span> powershell
+    4  curl https://packages.microsoft.com/keys/microsoft.asc | <span class="nb">sudo </span>apt-key add -
+    5  curl https://packages.microsoft.com/config/ubuntu/16.04/prod.list | <span class="nb">sudo tee</span> /etc/apt/sources.list.d/microsoft.list
+    6  <span class="nb">sudo </span>apt-get update
+    7  <span class="nb">sudo </span>apt-get <span class="nb">install</span> <span class="nt">-y</span> powershell
+    8  pswh
+</code></pre></div></div>
+
+<p>Um den Befehl 8 auszuführen geben wir ein:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>user@joergreuter3:~<span class="nv">$ </span><span class="o">!</span>8
+pswh
+No <span class="nb">command</span> <span class="s1">'pswh'</span> found, did you mean:
+ Command <span class="s1">'psw'</span> from package <span class="s1">'wise'</span> <span class="o">(</span>universe<span class="o">)</span>
+pswh: <span class="nb">command </span>not found
+</code></pre></div></div>
+
+<h1 id="locate-und-find">Locate und find</h1>
+
+<p>Auch unter Linux steht eine Indexsuche zur Verfügung. Indexsuche bedeutet, dass eine Datenbank durchsucht wird anstelle der realen Dateinamen auf dem Speichermedien. Der grosse Vorteil ist die hohe Geschwindigkeit. Die Aktualität des Index bestimmt masgeblich über den Erfolg der suche. Der Befehl heißt “locate” und wir installieren ihn mit:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>apt <span class="nb">install </span>locate
+</code></pre></div></div>
+
+<p>Und wir suchen nach ls:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>locate <span class="nb">ls</span>
+</code></pre></div></div>
+
+<p>Dem gegenüber durchsucht der Befehl find wirklich die  Verzeichnisse auf den Laufwerken. Find muss normalerweise nicht extra installiert werden:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>find / <span class="nt">-name</span> <span class="nb">ls</span>
+</code></pre></div></div>
+
+<p>Der erste Parameter gibt den Startpunkt der Suche an, hier “/” und der zweite Parameter wonach gesucht werden soll. Wollen wir nach Namen suchen, die ls enthalten, so rufen wir den Befehl wie folgt auf:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>find / <span class="nt">-name</span> <span class="s1">'*ls*'</span>
+</code></pre></div></div>
+
+<h1 id="man">Man</h1>
+
+<p>“Man” steht für Manual und bietet Hilfen für die Benutzung von Befehlen an. Manpages (also Manual-Seiten) sind in Sektionen unterteilt und haben einen standardisierten Aufbau. Sowohl die Unterteilung wie der Aufbau der einzelnen Seiten sind standardisiert. Siehe hierzu <a href="https://de.wikipedia.org/wiki/Manpage">https://de.wikipedia.org/wiki/Manpage</a>.</p>
+
+<p>Wir schauen uns die Hilfe zum Befehl “ls” an:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>man <span class="nb">ls</span>
+</code></pre></div></div>
+
+<p>Die angezeigte Seite sollte in etwa der Webseite entsprechen: <a href="http://man7.org/linux/man-pages/man1/ls.1.html">http://man7.org/linux/man-pages/man1/ls.1.html</a>.</p>
+
+<p>Links oben steht ls(1) und zeigt an, dass wir uns in der ersten Sektion befinden. In der ersten Sektion werden Befehle erklärt.</p>
+
+<p>Wir schauen uns den Befehl passwd an:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>man passwd
+</code></pre></div></div>
+
+<p>und erhalten eine Ausgabe ähnliche <a href="http://man7.org/linux/man-pages/man1/passwd.1.html">http://man7.org/linux/man-pages/man1/passwd.1.html</a>. Wir sehen am Ende des Textes einen Hinweis, dass es auf einen Eintrag von passwd in Sektion 5 gibt. Es gibt einmal den Befehl passwd und auf der anderen Seite die Konfigurationsdatei passwd. Konfigurationsdateien sind in Sektion 5 abgelegt:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>man 5 passwd
+</code></pre></div></div>
+
+<p>Die Ausgabe ist hier zu finden: <a href="http://man7.org/linux/man-pages/man5/passwd.5.html">http://man7.org/linux/man-pages/man5/passwd.5.html</a></p>
+
+<p>Wenn wir uns nicht sicher sind, in welcher Sektion etwas über einem Befehl steht, können wir folgendes eingeben:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>user@joergreuter3:~<span class="nv">$ </span>whatis passwd
+passwd <span class="o">(</span>1ssl<span class="o">)</span>        - compute password hashes
+passwd <span class="o">(</span>1<span class="o">)</span>           - change user password
+passwd <span class="o">(</span>5<span class="o">)</span>           - the password file
+</code></pre></div></div>
+
+<p>Alternativ funktioniert auch:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>man <span class="nt">-f</span> passwd
+</code></pre></div></div>
+
+<p>Wenn wir alle Seiten angezeigt bekommen möchten in denen ein bestimmter String auftaucht:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>user@joergreuter3:~<span class="nv">$ </span>apropos passwd
+chgpasswd <span class="o">(</span>8<span class="o">)</span>        - update group passwords <span class="k">in </span>batch mode
+chpasswd <span class="o">(</span>8<span class="o">)</span>         - update passwords <span class="k">in </span>batch mode
+expect_mkpasswd <span class="o">(</span>1<span class="o">)</span>  - generate new password, optionally apply it to a user
+fgetpwent_r <span class="o">(</span>3<span class="o">)</span>      - get passwd file entry reentrantly
+getpwent_r <span class="o">(</span>3<span class="o">)</span>       - get passwd file entry reentrantly
+gpasswd <span class="o">(</span>1<span class="o">)</span>          - administer /etc/group and /etc/gshadow
+grub-mkpasswd-pbkdf2 <span class="o">(</span>1<span class="o">)</span> - generate hashed password <span class="k">for </span>GRUB
+htpasswd <span class="o">(</span>1<span class="o">)</span>         - Manage user files <span class="k">for </span>basic authentication
+pam_localuser <span class="o">(</span>8<span class="o">)</span>    - require <span class="nb">users </span>to be listed <span class="k">in</span> /etc/passwd
+passwd <span class="o">(</span>1<span class="o">)</span>           - change user password
+passwd <span class="o">(</span>1ssl<span class="o">)</span>        - compute password hashes
+passwd <span class="o">(</span>5<span class="o">)</span>           - the password file
+passwd2des <span class="o">(</span>3<span class="o">)</span>       - RFS password encryption
+SSL_CTX_set_default_passwd_cb <span class="o">(</span>3ssl<span class="o">)</span> - <span class="nb">set </span>passwd callback <span class="k">for </span>encrypted PEM ...
+SSL_CTX_set_default_passwd_cb_userdata <span class="o">(</span>3ssl<span class="o">)</span> - <span class="nb">set </span>passwd callback <span class="k">for </span>encry...
+update-passwd <span class="o">(</span>8<span class="o">)</span>    - safely update /etc/passwd, /etc/shadow and /etc/group
+</code></pre></div></div>
+
+<p>Alternativ:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>man <span class="nt">-k</span> passwd
+</code></pre></div></div>
+
+<p>Innerhalb der Manpages kann man mit “/” und dem Schlüsselwort die Hilfe durchsuchen. Das drücken der “n”-Taste springt dann zum nächsten Treffer.</p>
+
+<h1 id="info">Info</h1>
+
+<p>Manpages hanen keine Verweise, sondern beim aufruf einer neuen Seite muss die Seite geschlossen werden und manuell eine neue geöffnet werden. Bei Info ist dies anders. Informationen zur Steuerung: <a href="https://en.wikipedia.org/wiki/Info_(Unix)">https://en.wikipedia.org/wiki/Info_(Unix)</a>.</p>
+
+<p>Die Links sind drch “*” gekennzeichnet.</p>
+
+<h1 id="bind-installieren">Bind installieren</h1>
+
+<p>Ein ergänzender Artikel ist hier zu finden <a href="https://wiki.ubuntuusers.de/DNS-Server_Bind/">https://wiki.ubuntuusers.de/DNS-Server_Bind/</a></p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>apt update
+<span class="o">&gt;</span>apt dist-upgrade
+apt-get <span class="nb">install </span>bind9 bind9utils vim-nox host telnet dnsutils
+</code></pre></div></div>
+
+<p>Wir löschen den kompletten Inhalt der Datei  /etc/bind/named.conf.options und fügen folgendes ein:</p>
+
+<pre><code class="language-bind">options{
+forwarders {
+# Your ISP DNS IP(s) Here
+8.8.8.8; # Google DNS
+8.8.4.4; # Google DNS #2
+};
+};
+</code></pre>
+
+<p>Der Eintrag sorgt dafür, dass alle Anfragen zur Namensauflösung die der lokale DNS-Server nicht auflösen kann, an die DNS-Server von Amazon und Google weitergeleitet werden.</p>
+
+<p>Die nächste Datei ist  /etc/bind/named.conf.local. Auch hier löschen wir den gesamten Inhalt und fügen den Inhalt der unten steht neu ein. Die IP-Adresse für die der Server in dem Fall zuständig ist, lautet 192.168.1.0-192.168.1.255. Beachte bitte die Schreibweise, beim Dateinamen werden die Tupel umgekehrt sortiert:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Forwarding zone</span>
+zone <span class="s2">"test.lab"</span><span class="o">{</span>
+        <span class="nb">type </span>master<span class="p">;</span>
+        file <span class="s2">"/etc/bind/zones/db.test.lab"</span><span class="p">;</span>
+<span class="o">}</span><span class="p">;</span>
+
+<span class="c"># Reserve lookup and server info</span>
+zone <span class="s2">"1.168.192.in-addr.arpa"</span> <span class="o">{</span>
+        <span class="nb">type </span>master<span class="p">;</span>
+        file <span class="s2">"/etc/bind/zones/db.192.168.1"</span><span class="p">;</span>
+<span class="o">}</span><span class="p">;</span>
+</code></pre></div></div>
+
+<p>Wir haben jetzt zwei Dateien definiert für die Namensauflösung. Einmal für die Vorwärtsauflösung (IP-Adresse -&gt; Name) und die Reverseauflösung (Name -&gt; IP-Adresse). Die eine Datei ist für die Domain test.lab zuständig und die zweite Datei für das IP-Netz 192.168.1.0.</p>
+
+<h1 id="zone-anlegen">Zone anlegen</h1>
+
+<p>Wir müssen jetzt das Unterverzeichnis anlegen, dass wir in der Datei named.conf.local angegeben haben:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">mkdir</span> /etc/bind/zones
+<span class="nb">cd</span> /etc/bind/zones
+</code></pre></div></div>
+
+<p>und es mach auch Sinn in das Verzeichnis mit cd zu wechseln, damit wir dort in Ruhe die Konfigurationsdateien anlegen können. Wir können eine Vorlage in das Verzeichnis kopieren oder die Datei komplett neu anlegen. Wir verwenden eine Vorlage:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cp</span> ../db.local db.test.lab
+</code></pre></div></div>
+
+<p>Wie ändern die Datei db.test.lab so ab, dass sie wie folgt aussieht:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">;</span>
+<span class="p">;</span> BIND data file <span class="k">for </span><span class="nb">local </span>loopback interface
+<span class="p">;</span>
+<span class="nv">$TTL</span>    604800
+@       IN      SOA     ns1.test.lab. admin.test.lab. <span class="o">(</span>
+                              3         <span class="p">;</span> Serial
+                         604800         <span class="p">;</span> Refresh
+                          86400         <span class="p">;</span> Retry
+                        2419200         <span class="p">;</span> Expire
+                         604800 <span class="o">)</span>       <span class="p">;</span> Negative Cache TTL
+<span class="p">;</span>
+        IN      NS      ns1.test.lab.
+ns1     IN      A       127.0.0.1
+<span class="nb">test    </span>IN      A       192.168.1.50
+test2   IN      A       192.168.1.51
+test3   IN      A       192.168.1.52
+</code></pre></div></div>
+
+<h1 id="reversezone-anlegen">Reversezone anlegen</h1>
+
+<p>Auch für die Reversezone kopieren wir uns eine Vorlage in das Verzeichnis /etc/bind/zones:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cp</span> ../db.127 db.192.168.1
+</code></pre></div></div>
+
+<p>Wir editieren jetzt die Datei db.192.168.1:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">;</span>
+<span class="p">;</span> BIND reverse data file <span class="k">for </span><span class="nb">local </span>loopback interface
+<span class="p">;</span>
+<span class="nv">$TTL</span>    604800
+@       IN      SOA     ns1.test.lab. admin.test.lab. <span class="o">(</span>
+                              1         <span class="p">;</span> Serial
+                         604800         <span class="p">;</span> Refresh
+                          86400         <span class="p">;</span> Retry
+                        2419200         <span class="p">;</span> Expire
+                         604800 <span class="o">)</span>       <span class="p">;</span> Negative Cache TTL
+<span class="p">;</span>
+        IN      NS      ns1.test.lab.
+
+50      IN      PTR     test.test.lab.
+51      IN      PTR     test2.test.lab.
+52      IN      PTR     test3.test.lab.
+</code></pre></div></div>
+
+<h1 id="resolveconf">resolve.conf</h1>
+
+<p>Die Einrichtung des Servers ist soweit abgeschlossen. Jetzt müssen wir den DNS-Server unserem System bekannt machen, damit unser Server auch etwas zu tun bekommt. Dies geschieht in der Datei  /etc/resolv.conf, die wir wie folgt abändern:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nameserver 127.0.0.1 <span class="c"># Unser Nameserver</span>
+</code></pre></div></div>
+
+<h1 id="testen-der-koniguration">Testen der Koniguration</h1>
+
+<p>Testen der Forward-Auflösung:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>named-checkzone test.lab /etc/bind/zones/db.test.lab
+zone lab/IN: loaded serial 2
+OK
+</code></pre></div></div>
+
+<p>Testen der Reverse-Auflösung:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>named-checkzone 1.168.192.in-addr-arpa /etc/bind/zones/db.192.168.1
+zone test.lab/IN: loaded serial 1
+OK
+</code></pre></div></div>
+<p>Und zum Abschluss:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>named-checkconf <span class="nt">-zj</span>
+zone test.lab/IN: loaded serial 2
+zone 1.168.192.in-addr.arpa/IN: loaded serial 1
+zone localhost/IN: loaded serial 2
+zone 127.in-addr.arpa/IN: loaded serial 1
+zone 0.in-addr.arpa/IN: loaded serial 1
+zone 255.in-addr.arpa/IN: loaded serial 1
+</code></pre></div></div>
+<p>Wir starten den Bind neu, damit alle Konfigurationsdateien neu eingelesen werden:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>service bind9 restart
+ <span class="k">*</span> Stopping domain name service... bind9                                        waiting <span class="k">for </span>pid 3988 to die
+                                                                         <span class="o">[</span> OK <span class="o">]</span>
+ <span class="k">*</span> Starting domain name service... bind9                                 <span class="o">[</span> OK <span class="o">]</span>
+</code></pre></div></div>
+
+<p>Wir überprüfen, dass der Dienst auch wirklich läuft:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>root@acde03affad0:/etc/bind/zones# service bind9 status
+ <span class="k">*</span> bind9 is running
+</code></pre></div></div>
+
+<h2 id="rndc-connect-failed-127001953-connection-refused">rndc: connect failed: 127.0.0.1#953: connection refused</h2>
+
+<p>Diese Fehlermeldung weist darauf hin, das Bind nicht gestartet wurde. Es ist extrem unwahrscheinlich, dass der Fehler im Programm rndc liegt. Vielmehr benötigt rndc einen laufenden Bind und da er nicht richtig gestartet ist kommt die Fehlermeldung.</p>
+
+<h1 id="tests">Tests</h1>
+
+<p>Forward-Auflösung testen:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>root@acde03affad0:/etc/bind/zones# host test.test.lab
+test.lab has address 192.168.1.50
+root@acde03affad0:/etc/bind/zones# host test2.test.lab
+test2.lab has address 192.168.1.51
+</code></pre></div></div>
+
+<p>Rückwärtsauflösung:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>root@acde03affad0:/etc/bind/zones# host 192.168.1.50
+50.1.168.192.in-addr.arpa domain name pointer test.test.labs.
+root@acde03affad0:/etc/bind/zones# host 192.168.1.51
+51.1.168.192.in-addr.arpa domain name pointer test2.test.labs.
+</code></pre></div></div>
+
+<h2 id="test-mit-nslookup">Test mit nslookup</h2>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>root@acde03affad0:/etc/bind/zones# nslookup test.test.lab
+Server:         192.168.1.50
+Address:        192.168.1.50#53
+
+Name:   test.test.lab
+Address: 192.168.1.50
+</code></pre></div></div>
+
+<p>oder</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>root@acde03affad0:/etc/bind/zones# nslookup test2.test.lab
+Server:         192.168.1.50
+Address:        192.168.1.50#53
+
+Name:   test2.lab
+Address: 192.168.1.51
+</code></pre></div></div>
+
+<p>Und Reverse:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>root@acde03affad0:/etc/bind/zones# nslookup 192.168.1.50
+Server:         192.168.1.50
+Address:        192.168.1.50#53
+
+50.1.168.192.in-addr.arpa       name <span class="o">=</span> test.test.labs.
+</code></pre></div></div>
+
+<p>oder</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>root@acde03affad0:/etc/bind/zones# nslookup 192.168.1.51
+Server:         192.168.1.50
+Address:        192.168.1.50#53
+
+51.1.168.192.in-addr.arpa       name <span class="o">=</span> test2.test.labs.
+</code></pre></div></div>
+
+<p>Wir können auch eine Anwendung verwenden um die Auflösung zu überprüfen wie telnet:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>root@acde03affad0:/etc/bind/zones# telnet test2.test.lab
+Trying 192.168.1.51...
+telnet: Unable to connect to remote host: No route to host
+</code></pre></div></div>
+<p>Der Befehl bricht mit einem Fehler ab, da kein Telnet-Server auf dem System läuft bzw. der Computer nicht existiert. Aber die Namensauflösung ware erfolgreicht, da die IP-Adresse korrekt angezeigt wird.</p>
+
+<h1 id="apache">Apache</h1>
+
+
+        </div>
+      </article>
+    </div>
+  </div>
+
+</div>
+
+    <footer class='c-footer'>
+  <div class='o-grid'>
+    <div class='o-grid__col o-grid__col--full'>
+
+      <ul class='o-plain-list c-social-nav u-text-center'>
+        
+          <li class='c-social-nav__item'>
+            <a href='http://www.twitter.com/joergreu' target='_blank'>
+              <span class='c-social-nav__icon' data-icon='ei-sc-twitter' data-size='s'></span>
+            </a>
+          </li>
+        
+        
+          <li class='c-social-nav__item'>
+            <a href='https://instagram.com/jorgreuter' target='_blank'>
+              <span class='c-social-nav__icon' data-icon='ei-sc-instagram' data-size='s'></span>
+            </a>
+          </li>
+        
+        
+        <li class='c-social-nav__item'>
+          <a href='http://www.github.com/joergre' target='_blank'>
+            <span class='c-social-nav__icon' data-icon='ei-sc-github' data-size='s'></span>
+          </a>
+        </li>
+        
+
+        
+        <li class='c-social-nav__item'>
+          <a href='mailto:joerg@reuter.sc' target='_blank'>
+            <span class='c-social-nav__icon' data-icon='ei-envelope' data-size='s'></span>
+          </a>
+        </li>
+	
+	
+        <li class='c-social-nav__item'>
+          <a href='https://www.youtube.com/user/fbsfulda/' target='_blank'>
+            	<span class='c-social-nav__icon' data-icon='ei-sc-youtube' data-size='s'></span>
+          </a>
+        </li>
+
+        
+      </ul>
+
+      <div class='u-text-center'>
+        <span class='u-font-small u-font-sans-serif'>&copy; 2018 Fachinformatiker-Forum Fulda</span>
+      </div>
+
+    </div>
+  </div>
+</footer>
+  </div>
+
+  <script src="/js/jquery-3.1.1.min.js">            </script>
+  <script src="/js/masonry.pkgd.min.js">            </script>
+  <script src="/js/imagesloaded.pkgd.min.js">       </script>
+  <script src="/js/jquery.viewportchecker.min.js">  </script>
+  <script src="/js/jquery.ghostHunter.min.js">      </script>
+  <script src="/js/evil-icons.min.js">              </script>
+  <script src="/js/jquery.fitvids.js">              </script>
+  <script src="/js/app.js">                         </script>
+</body>
+
+</html>

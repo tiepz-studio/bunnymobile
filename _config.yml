@@ -1,0 +1,61 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title:              Đôi tay đung đưa | Thỏ, Content, AdSense
+logo:               https://github.com/ngothuy-com/m/blob/master/logo.png?raw=true# Logo image URL
+email:              info@ngothuy.com
+description:        Dungdua.com là một trang tin tức online trên mobile của Ngothuy.com, Chuyên về làm web, làm nội dung viết content, đăng ký adsense và nuôi thỏ.
+baseurl:            '' # The subpath of your site, e.g. /blog
+url:                'https://dungdua.com' # The base hostname & protocol for your site
+github_username:    ngothuy
+twitter_username:   beotay
+instagram_username: beotay
+facebook_username:  ngothuyecommerce
+youtube_username:   UCFkhEztNaIwrzzJjNv5hX8w
+
+markdown:  kramdown
+permalink: pretty
+paginate:  13
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-paginate
+  - jekyll/tagging
+  - jekyll-feed
+
+include:
+  - _pages
+
+exclude:
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+
+# Tags
+tag_page_dir:         tag
+tag_page_layout:      tag_page
+tag_permalink_style:  pretty
+
+# Pages path
+defaults:
+  - scope:
+      path: '_pages'
+    values:
+      permalink: /:basename:output_ext
+
+# Authors
+authors:
+  tiep:
+    name:             Đung đưa trước gió
+    bio:              Từ trại thỏ Ngô thủy, đình làng tống vũ, thôn tống vũ, xã vũ chính, thành phố thái bình, điện thoại 070 774 0013.
+    gravatar:         https://en.gravatar.com/ngothuy
+    email:            info@ngothuy.com
+    website:          https://ngothuy.com
+    github_username:  ngothuy
+    twitter_username: ngothuy
